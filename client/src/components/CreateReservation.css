@@ -1,0 +1,41 @@
+label {
+  display: block;
+  margin: 0 0 0 0;
+  font-size: 1.1rem;
+}
+
+.input {
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 100%;
+  justify-content: center;
+  font-size: 1rem;
+  border: 0.1rem #555555 solid;
+}
+
+.submitt-button {
+  padding: 1rem 2rem 1rem 2rem;
+  border: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.h2-center {
+  text-align: center;
+}
+.submitt-button:hover {
+  background-color: #f64747;
+  color: #2b2c34;
+  cursor: pointer;
+}
+@media only screen and (min-width: 40rem) {
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}

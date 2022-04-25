@@ -1,0 +1,49 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+.btn-colour-shape {
+  text-decoration: none;
+  color: white;
+  background-color: #d91e18;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.link-reserve-now {
+  display: block;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+  width: 9rem;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 2rem;
+}
+.restaurant-list-item {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 3rem;
+}
+.link-reserve-now:hover {
+  background-color: #f64747;
+  color: #2b2c34;
+}
+@media only screen and (min-width: 40rem) {
+  .restaurant-list-item {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+  }
+  .container {
+    max-width: 55rem;
+    max-height: 100%;
+  }
+  .restaurant-description {
+    display: grid;
+  }
+  .link-reserve-now {
+    width: 8.5rem;
+    align-self: flex-end;
+  }
+}

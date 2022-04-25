@@ -1,0 +1,4 @@
+Add your deployed website domain's / URL's below
+
+React application URL / domain: https://melodious-longma-78be0c.netlify.app/
+API URL / domain: https://reservationizr-nat.herokuapp.com
