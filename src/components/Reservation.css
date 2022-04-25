@@ -1,0 +1,36 @@
+.reservation-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.link-back-to-reservations {
+  color: #2b2c34;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  display: block;
+  margin-top: 1rem;
+  width: 12rem;
+  text-align: center;
+}
+
+.h1-reservation {
+  text-align: left;
+}
+.single-reservation {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed #ccc;
+  text-align: left;
+}
+.color {
+  color: #d91e18;
+  margin-bottom: 1rem;
+}
+.link-back-to-reservations:hover {
+  font-style: italic;
+  text-decoration: underline;
+}

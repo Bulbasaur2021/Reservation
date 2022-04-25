@@ -1,0 +1,33 @@
+.link-view-details {
+  font-size: 1rem;
+  color: #d91e18;
+}
+.reservation-list-item {
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed #ccc;
+  text-align: left;
+}
+.reservation-date {
+  color: #555555;
+}
+.reservation-list-container {
+  margin: 1rem;
+}
+.reservation-list-header {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.link-view-details:hover {
+  font-style: italic;
+}
+@media only screen and (min-width: 40rem) {
+  .reservation-list-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4rem;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    padding-top: 2rem;
+  }
+}
